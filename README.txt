@@ -21,3 +21,10 @@ Des outils permettant de développer plus rapidement
 Thymeleaf :
 
 Thymeleaf est un moteur de template pour les applications web qui permet de générer des vues à partir de modèles et de données.
+
+
+--------------------------------------------------------------------------------------------------------------
+REPONSES AUX QUESTIONS :
+--------------------------------------------------------------------------------------------------------------
+q17 :
+Mtn table address. Pas avant.
