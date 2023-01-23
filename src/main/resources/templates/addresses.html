@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Adresses</title>
+    <meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
+  </head>
+
+  <!--Using Thymeleaf to replace this div with the header file content -->
+  <div th:replace="header :: header"></div>
+
+  <body>
+  <h1>Les differentes adresses</h1>
+  <ul th:each="address:${allAddresses}">
+    <li th:text="${address.content}" />
+    <li th:text="${address.auteur}" />
+  </ul>
+  </body>
+</html>

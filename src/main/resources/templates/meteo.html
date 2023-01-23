@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<!--Using Thymeleaf to replace this div with the header file content -->
+<div th:replace="header :: header"></div>
+<body>
+<p th:text="'Vous souhaitez obtenir la météo du : ' + ${nomTemplate} + ' ?!'" />
+<p th:text="'longitude = '+${longitude}" />
+<p th:text="'latitude = '+${latitude}" />
+
+</body>
+</html>

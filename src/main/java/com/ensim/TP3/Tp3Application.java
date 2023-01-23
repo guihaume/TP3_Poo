@@ -1,4 +1,4 @@
-package com.example.TP3;
+package com.ensim.TP3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
