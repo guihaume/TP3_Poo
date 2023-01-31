@@ -11,5 +11,11 @@
 <p th:text="'longitude = '+${longitude}" />
 <p th:text="'latitude = '+${latitude}" />
 
+<h3 th:text=" 'Prévisions météo pour : ' + ${forecast.getCity().getName()}"/>
+
+<p th:text="'Température Max = '+${forecast.forecast.tmax}" />
+<p th:text="'Température Min = '+${forecast.forecast.tmin}" />
+<p th:text="'Probabilité de pluie = '+${forecast.forecast.probarain}" />
+
 </body>
 </html>
