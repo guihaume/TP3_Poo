@@ -81,3 +81,7 @@ q6 :
 5. Pour récupérer les données, il faut parser le fichier JSON ou XML.
 6. La température se trouve dans le tableau "observations" du fichier JSON observations : https://api.meteo-concept.com/api/observations/24h/station.
 7. Les prévisions se trouvent dans le tableau "forecast" avec les valeurs tmin et tmax.
+
+
+
+lien github : https://github.com/guihaume/TP3_Poo.git
